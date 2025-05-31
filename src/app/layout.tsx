@@ -7,8 +7,8 @@ import Footer from '../components/Footer';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My React App",
-  description: "A modern React application with Next.js",
+  title: "Weather App",
+  description: "A modern weather application built with Next.js",
 };
 
 export default function RootLayout({

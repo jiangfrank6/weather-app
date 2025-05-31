@@ -7,15 +7,15 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="text-xl font-bold">
             <Link href="/" className="hover:text-gray-300">
-              My React App
+              Weather App
             </Link>
           </div>
           <div className="flex space-x-4">
             <Link href="/" className="hover:text-gray-300">
               Home
             </Link>
-            <Link href="/todos" className="hover:text-gray-300">
-              Todos
+            <Link href="/forecast" className="hover:text-gray-300">
+              Forecast
             </Link>
             <Link href="/about" className="hover:text-gray-300">
               About
